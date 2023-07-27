@@ -129,3 +129,16 @@ input {
 select {
     background-color: rgb(166,197,181);
 }
+
+label[for="javascript"] {
+    visibility: hidden;
+    position: relative;
+}
+
+label[for="javascript"]:after {
+    visibility: visible;
+    position: absolute;
+    content: "JS";
+    top: 0;
+    left: 0;
+}
